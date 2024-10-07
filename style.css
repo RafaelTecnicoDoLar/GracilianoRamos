@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    
+}
+
+:root {
+    --cor-de-fundo: #b2b39f;
+    --cor-de-fundo-header: #3d423c;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+header {
+    display: flex;
+    vertical-align: super;
+    align-items: center;
+    background-color: var(--cor-de-fundo-header);
+    color: white;
+    font-size: 2rem;
+}
+
+.LogoGracilianoRamos {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5rem;
+}
