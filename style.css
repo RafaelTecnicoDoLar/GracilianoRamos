@@ -30,3 +30,12 @@ header {
     width: 10rem;
     border-radius: 5rem;
 }
+.cabecalho_menu_hamburguer {
+    margin: 2rem;
+    width: 4rem;
+    height: 4rem;
+    background-image: url("img/Menu.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
