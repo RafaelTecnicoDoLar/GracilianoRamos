@@ -18,17 +18,23 @@ body {
 
 header {
     display: flex;
-    vertical-align: super;
     align-items: center;
+    justify-content: space-between;
     background-color: var(--cor-de-fundo-header);
     color: white;
     font-size: 2rem;
+    padding: 2rem;
 }
 
 .LogoGracilianoRamos {
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
     border-radius: 5rem;
+    border: 2px solid #c49c3c;
+}
+
+.itens{
+    padding: 1rem;
 }
 .cabecalho_menu_hamburguer {
     margin: 2rem;
@@ -38,4 +44,5 @@ header {
     display: inline-block;
     background-repeat: no-repeat;
     background-size: contain;
+
 }
