@@ -9,20 +9,16 @@
 
 :root {
     --cor-de-fundo: #b2b39f;
-    --cor-de-fundo-header: #3d423c;
+    --cor-de-fundo-header: white;
     --branco: White;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-}
-
-body {
-    background-color: var(--cor-de-fundo);
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--cor-de-fundo-header);
+    background-color: var(--cor-de-fundo);
     color: white;
     font-size: 2rem;
     padding: 1rem;
@@ -54,7 +50,7 @@ header {
     position: absolute;
     background-color: gray;
     padding: 1rem;
-    
+
 }
 
 .container__botao:checked~.lista-menu {
@@ -63,6 +59,42 @@ header {
 
 }
 
-.container__botao{
+.container__botao {
     display: none;
+}
+
+.banner {
+    background-color: #3d423cc0;
+    color: white;
+    text-align: center;
+    padding: 2.5rem 2rem;
+}
+
+.banner_titulo {
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+.banner_texto {
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+
+}
+
+.banner_pesquisa {
+    background-color: transparent;
+    height: 2rem;
+    color: white;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 1em;
+}
+
+.banner_pesquisa {
+    text-align: center;
+    background: url(img/Lupa.svg) no-repeat;
+    vertical-align: center;
+background-position: 1rem;
 }
