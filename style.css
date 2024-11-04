@@ -96,5 +96,20 @@ header {
     text-align: center;
     background: url(img/Lupa.svg) no-repeat;
     vertical-align: center;
-background-position: 1rem;
+    background-position: 1rem;
+}
+
+.carrossel_titulo {
+    text-align: center;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    background-color: white;
+    color: orangered;
+    text-transform: uppercase;
+}
+
+.swiper-slide img {
+    width: 30%;
+
 }
